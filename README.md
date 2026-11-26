@@ -30,7 +30,9 @@ TECDD reads an event stream one event at a time. A transformer trained on next e
 │       └── run_prefixcdd.py
 └── Dataset-Generation/
     ├── requirements.txt
-    └── build_semi_synthetic_logs.py   builds one semi synthetic log (validation and test split)
+    ├── build_semi_synthetic_logs.py   builds one semi synthetic log (validation and test split)
+    ├── trace_features.py              per case features for clustering
+    └── xes_io.py                      reading, copying and writing XES cases
 ```
 
 ## Environments
